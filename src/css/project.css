@@ -1,0 +1,80 @@
+.project {
+  padding: 0 10px;
+  margin-top: 100px;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-project {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.github {
+  color: #18d26e;
+}
+
+.arrow_right {
+  color: #fff;
+  position: relative;
+  top: 10px;
+  font-size: 30px;
+  z-index: -1;
+}
+
+.text_project {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-wrapper {
+  padding: 0 20px;
+  margin-top: 30px;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.project-info {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 12px;
+  margin: 16px 0px;
+  border-radius: 10px;
+}
+.project-info > div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+}
+.project-info > div:nth-child(1) > h3 {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.project-info > div:nth-child(1) > p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.repo {
+  color: #18d26e;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.project-info > div:nth-child(2) > p {
+  font-size: 14px;
+  color: #9ca3af;
+  margin-top: 0.25rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .project {
+    padding: 30px;
+    margin-top: 40px;
+  }
+
+  .project-wrapper {
+    padding: 0 0px;
+  }
+}

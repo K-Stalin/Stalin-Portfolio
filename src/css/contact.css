@@ -1,0 +1,140 @@
+.contact {
+  padding: 0 10px;
+  margin-top: 100px;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-contact {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+.contact-wrapper {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info-box {
+  color: #444444;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-box > div > h3 {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 700;
+  display: inline;
+  margin-bottom: 8px;
+}
+
+.info-box > div > p {
+  padding: 0;
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.share_icons {
+  color: #fff;
+  font-size: 22px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.share_icons:hover {
+  color: #18d26e !important;
+  cursor: pointer;
+}
+
+.form-contact {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.08);
+  margin-top: 1.5rem !important;
+}
+.form-contact > div:nth-child(1) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-contact > div:nth-child(1) > div > input,
+.form-contact > div:nth-child(2) > input {
+  box-shadow: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 0;
+  transition: 0.3s;
+  color: #fff;
+  padding: 10px 15px;
+}
+.form-contact > div:nth-child(1) > div > input {
+  width: 100%;
+}
+.form-contact > div {
+  margin-top: 1rem !important;
+}
+
+.form-contact > div:nth-child(2) > input,
+.form-contact > div:nth-child(3) > textarea {
+  width: 100%;
+}
+
+.form-contact > div:nth-child(3) > textarea {
+  height: 120px;
+  box-shadow: none;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 0;
+  transition: 0.3s;
+  color: #fff;
+  padding: 10px 15px;
+}
+
+.send_message_btn {
+  text-align: center;
+}
+
+.send_message_btn > button {
+  background: #18d26e;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-contact > input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 700px) {
+  .contact {
+    margin-top: 40px;
+    padding: 30px;
+  }
+
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .form-contact > div:nth-child(1) {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  background: #040404 url("../public/assets/bg.png") top right no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(4px);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/*----------------------Navaber Mobile Start---------------------- */
+.navbar_mobile {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.menu_parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.menubar,
+.closebtn {
+  width: 30px;
+  height: 30px;
+  color: white;
+  cursor: pointer;
+}
+.closebtn_parent {
+  display: flex;
+  justify-content: end;
+  margin: 10px 30px;
+}
+
+.closeBtn {
+  color: white;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.closeBtn_section {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.nav_elements {
+  position: absolute;
+  top: 80px;
+  right: 15px;
+  bottom: 45px;
+  left: 15px;
+  padding: 10px 0;
+  overflow-y: auto;
+  transition: 0.3s;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.nav_elements > ul > li {
+  color: white;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+/*----------------------Navaber Mobile End---------------------- */
+
+/*-------------------- Navbar Desktop Start------------ */
+
+.navbar_desk {
+  background: rgba(0, 0, 0, 0.9);
+  padding: 10px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 60px;
+  z-index: 1000;
+}
+
+.navbarDesktop {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px;
+  align-items: center;
+  color: #ffff;
+}
+
+.navbarDesktop > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/*--------------Navbar Desktop End---------------------- */
+
+/*----------------------HomePage start----------------------------------------- */
+
+.home_parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 88vh;
+  padding: 0 12px;
+}
+
+.home_page {
+  color: #ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_elements {
+  margin-top: 35px;
+}
+.home_elements > ul {
+  display: flex;
+  gap: 20px;
+}
+.description {
+  font-size: 24px;
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: 300;
+  padding-bottom: 6px;
+  line-height: 30px;
+}
+
+.home_elements {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+
+.social_media > ul {
+  margin-top: 40px;
+  display: flex;
+  gap: 10px;
+}
+
+.social_media > ul > li {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.social_icons {
+  color: #fff;
+}
+
+.social_media > ul > li:hover {
+  background-color: #18d26e;
+  transition: ease-in-out 0.3s;
+}
+
+.active {
+  border-bottom: 2px solid #18d26e;
+}
+.bottom_title {
+  position: fixed;
+  bottom: 0;
+  /* left: 0; */
+  right: 0;
+  z-index: 1000;
+}
+
+.bottom_title > span {
+  font-size: 13px;
+  color: #fff;
+}
+
+/*----------------------HomePage End----------------------------------------- */
+
+/*-------------------Title Start--------------------------------------- */
+
+.common-text {
+  margin-bottom: 20px;
+}
+
+.common-text > span {
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+
+  font-family: "Poppins", sans-serif;
+}
+
+.common-text > span::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #4ceb95;
+  margin: 4px 10px;
+}
+
+.common-text > p {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+/* --------------------Title End--------------------------------------- */
+
+/* MediaQuery */
+@media screen and (max-width: 1200px) {
+  .navbar_desk {
+    display: none;
+  }
+  .navbar_mobile {
+    display: block;
+  }
+  .name {
+    text-align: center;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+  .home_elements {
+    display: none;
+  }
+  .social_media > ul {
+    justify-content: center;
+  }
+  .bottom_title {
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 10px 0;
+  }
+}
