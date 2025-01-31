@@ -89,7 +89,7 @@ const Resume = () => {
                 </ul>
               </div>
               <div className="resume-item">
-                <h4>Frontend Developer Intern</h4>
+                <h4>Full Stack Developer Intern</h4>
                 <h5>Sep 2024 - Dec 2024</h5>
                 <p>
                   <em>CloudlightCorp, Chennai, IND</em>
