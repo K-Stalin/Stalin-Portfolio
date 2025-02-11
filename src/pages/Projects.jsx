@@ -52,6 +52,23 @@ const Projects = () => {
                 </p>
               </div>
             </div>
+            <div className="project-info">
+              <div>
+                <p>
+                  Shipment Rate Calculator
+                  <Link to="https://github.com/K-Stalin/Shipment_Rate_Calculation">
+                    <span className="repo">repo</span>
+                  </Link>
+                </p>
+                <p>Nov 2024</p>
+              </div>
+              <div>
+                <p>
+                  A calculator that allows you to calculate your shipping price.
+                  It was not completed fully.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
