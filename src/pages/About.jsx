@@ -79,7 +79,7 @@ const About = () => {
                   JavaScript & JAVA PROGRAMMING <i className="val">60%</i>
                 </span>
                 <div className="progress-bar-wrapper">
-                  <div className="progress-bar" style={{ width: "70%" }}></div>
+                  <div className="progress-bar" style={{ width: "60%" }}></div>
                 </div>
               </div>
               <div className="progress">
