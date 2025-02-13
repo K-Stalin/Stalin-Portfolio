@@ -18,7 +18,7 @@ const Resume = () => {
                 <ul>
                   <li>Chennai , India</li>
                   <li>+91 7639097966</li>
-                  <li>stalinkumanan@gmail.com</li>
+                  <li>stalinkumanan1@gmail.com</li>
                 </ul>
               </div>
               <h3 className="resume-title">Education</h3>

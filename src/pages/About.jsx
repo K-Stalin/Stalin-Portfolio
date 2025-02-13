@@ -51,7 +51,7 @@ const About = () => {
                     <li>
                       <FaAngleRight style={{ color: "#18d26e" }} />
                       <strong>Email:</strong>
-                      <span>stalinkumanan@gmail.com</span>
+                      <span>stalinkumanan1@gmail.com</span>
                     </li>
                     <li>
                       <FaAngleRight style={{ color: "#18d26e" }} />
@@ -76,7 +76,7 @@ const About = () => {
             <div className="col">
               <div className="progress">
                 <span className="skill">
-                  JavaScript <i className="val">70%</i>
+                  JavaScript & JAVA PROGRAMMING <i className="val">60%</i>
                 </span>
                 <div className="progress-bar-wrapper">
                   <div className="progress-bar" style={{ width: "70%" }}></div>
