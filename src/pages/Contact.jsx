@@ -63,7 +63,7 @@ const Contact = () => {
                 <MdOutlineMail style={iconsStyle} />
                 <div>
                   <h3>Email Me</h3>
-                  <p>stalinkumanan@gmail.com</p>
+                  <p>stalinkumanan1@gmail.com</p>
                 </div>
               </div>
             </div>
