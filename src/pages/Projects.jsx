@@ -69,6 +69,39 @@ const Projects = () => {
                 </p>
               </div>
             </div>
+            <div className="project-info">
+              <div>
+                <p>
+                  Learner's Todo_LocalStorage
+                  <Link to="https://github.com/K-Stalin/Todo_LocalStorage">
+                    <span className="repo">repo</span>
+                  </Link>
+                </p>
+                <p>JAN 2025</p>
+              </div>
+              <div>
+                <p>
+                  A simple app that allows you to store your data in
+                  LocalStorage.
+                </p>
+              </div>
+            </div>
+            <div className="project-info">
+              <div>
+                <p>
+                  Employee Management System (Frontend Only)
+                  <Link to="https://github.com/K-Stalin/Employee_Management">
+                    <span className="repo">repo</span>
+                  </Link>
+                </p>
+                <p>DEC 2024</p>
+              </div>
+              <div>
+                <p>
+                  Employee Management System using HTML, CSS, and JavaScript.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
