@@ -77,7 +77,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <form className="form-contact">
+          {/* <form className="form-contact">
             <div>
               <div>
                 <input type="text" placeholder="Your Name" required />
@@ -95,7 +95,7 @@ const Contact = () => {
             <div className="send_message_btn">
               <button type="submit">Send Message</button>
             </div>
-          </form>
+          </form> */}
         </div>
       </div>
     </section>
